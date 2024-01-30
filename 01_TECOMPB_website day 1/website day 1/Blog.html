@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to TechnoUni</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    
+    </head>
+    
+    <body>
+        
+<!------ Home --------->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Course.html">COURSE</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            
+            <h1>Blog: Certificate and Online Programs</h1>
+            
+        </section>
+        
+<!------------blog page----------->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg">
+                    <h2>Certificate and Online Programs</h2>
+                    <p>Lorem ipsum dolor sit amet. Et reiciendis voluptas sed tempora tempore ut minima modi. Non quasi possimus hic autem impedit a dolore architecto est totam saepe et exercitationem rerum aut voluptate quibusdam. Aut galisum sint quo soluta consequatur tempore repellendus eos libero dolorem non perspiciatis excepturi hic modi nulla eos commodi error. Ut officiis deserunt et sapiente dolore ea dolores quia quo voluptatem autem. Ea voluptas excepturi ut omnis sapiente non veritatis harum ut error reprehenderit eos repellendus inventore et minima dolorum et unde omnis.</p>
+                    <br>
+                    <p>Et minima debitis ut officiis veritatis est vero suscipit. Vel debitis earum et nobis dolores eum voluptatum ratione qui aliquam sapiente ut quaerat beatae nam numquam quos in perferendis deleniti. Aut praesentium commodi aut tenetur eligendi aut ipsum blanditiis sit cupiditate vitae. Aut molestiae autem ex odio voluptatem et dolore sunt ea voluptatem repellendus in rerum voluptas non quam voluptatem? Rem quos molestiae qui neque velit aut debitis dignissimos.</p>
+                    <br>
+                    <p>Aut odit inventore est doloremque corporis et quaerat doloremque. Et velit omnis non earum perferendis rem maiores. Ab deserunt odio sit debitis autem ea adipisci ratione At internos distinctio rem maiores sunt quo eligendi excepturi. Ad nemo quis id maiores cumque id nihil facere et dignissimos culpa hic enim accusantium hic porro animi! Cum cumque necessitatibus aut facere quos ea voluptas illo qui quia minus ea veritatis molestiae et aspernatur recusandae.</p>
+                    
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        
+                        <form class="comment-form">
+                            <input type="email" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                    
+                </div>
+                
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>25</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Multimedia</span>
+                        <span>47</span>
+                    </div>
+                    <div>
+                        <span>IT</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>40</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+<!------ Footer --------->
+        
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, mea ad audire gubergren maiestatis, sea iriure signiferumque no.<br> Sit veri etiam aliquam cu.</p>
+            
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by ABC</p>
+        </section>
+        
+<!----------Java Script for Toggle Menu--------->
+        <script>
+            
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+        </script>
+        
+    </body>
